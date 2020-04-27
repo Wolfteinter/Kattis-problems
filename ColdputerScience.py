@@ -1,0 +1,5 @@
+n = int(input())
+lista = str(input())
+lista = lista.split(" ")
+lista = list(filter(lambda x: int(x) < 0,lista))
+print(len(lista))
